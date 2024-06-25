@@ -1,22 +1,21 @@
-import Card from "../components/ui/Card/Card";
-import { initialProducts } from "../../data"
+"use client"
+import MainLayout from "@/components/ui/MainLayout/MainLayout";
 
 export default function Home() {
 
-	// Данные карточек (продукты)
-	
+	/**
+ * Компонент карточка
+ * @property {object} product - объект товара
+ * @property {string} initialProducts - массив базы данных
+ * @returns {JSX.Element} Элемент JSX
+ */
+
 	return (
-		<>
-			<section className="products">
-				<div className="container mx-auto px-2">
-					<div className="flex flex-wrap justify-center gap-4 md:justify-between">
-						{!!initialProducts &&
-							initialProducts.map((product) => (
-								<Card key={product?.id} details={product} />
-							))}
-					</div>
-				</div>
-			</section>
-		</>
+		<MainLayout>
+			<div className="container mx-auto p-4">
+				<h1 className="text-2xl font-bold">Home Page</h1>
+				<p>Welcome to the home page!</p>
+			</div>
+		</MainLayout>
 	);
 }
