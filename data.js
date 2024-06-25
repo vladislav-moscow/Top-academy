@@ -1,62 +1,99 @@
+// Данные карточек (продукты)
 export const initialProducts = [
-	{
-		id: "1",
-		name: "Armchair",
-		category: "Chair",
-		description:
-			"At IKEA we want to put well-designed, affordable home furnishing within",
-		rating: "4.9",
-		price: "50.2",
-		imgSrc: "/products/product-1.jpg",
-	},
-	{
-		id: "2",
-		name: "Bed",
-		category: "Bed",
-		description:
-			"At IKEA we want to put well-designed, affordable home furnishing within2",
-		rating: "3.0",
-		price: "102.10",
-		imgSrc: "/products/product-2.jpg",
-	},
-	{
-		id: "3",
-		name: "Bench",
-		category: "Bench",
-		description:
-			"At IKEA we want to put well-designed, affordable home furnishing within3",
-		rating: "4.9",
-		price: "15",
-		imgSrc: "/products/product-3.jpg",
-	},
-	{
-		id: "4",
-		name: "Bed 2",
-		category: "Bed 2",
-		description:
-			"At IKEA we want to put well-designed, affordable home furnishing withi4",
-		rating: "3.0",
-		price: "102.10",
-		imgSrc: "/products/product-4.jpg",
-	},
-	{
-		id: "5",
-		name: "Bench2",
-		category: "Bench",
-		description:
-			"At IKEA we want to put well-designed, affordable home furnishing within5",
-		rating: "3.2",
-		price: "12",
-		imgSrc: "/products/product-5.jpg",
-	},
-	{
-		id: "6",
-		name: "Bed2",
-		category: "Bed",
-		description:
-			"At IKEA we want to put well-designed, affordable home furnishing within6",
-		rating: "1.0",
-		price: "105.80",
-		imgSrc: "/products/product-8.jpg",
-	},
+  {
+    id: "0",
+    name: "Poäng Armchair",
+    category: "Chair",
+    description:
+      "A comfortable armchair with a unique design, perfect for relaxation.",
+    rating: "4.7",
+    price: "79.99",
+    imgSrc: "/products/product-1.avif",
+    isFavorite: true,
+    cartQuantity: 1
+  },
+  {
+    id: "1",
+    name: "MALM Bed Frame",
+    category: "Bed",
+    description:
+      "A sturdy bed frame with a minimalist design, available in various sizes.",
+    rating: "4.3",
+    price: "199.00",
+    imgSrc: "/products/product-2.avif",
+    isFavorite: true,
+    cartQuantity: 1,
+  },
+  {
+    id: "2",
+    name: "TÄRENDÖ Bench",
+    category: "Bench",
+    description:
+      "A simple and practical bench suitable for both indoor and outdoor use.",
+    rating: "2.3",
+    price: "29.99",
+    imgSrc: "/products/product-3.avif",
+    isFavorite: false,
+    cartQuantity: 1,
+  },
+  {
+    id: "3",
+    name: "HEMNES Bed Frame",
+    category: "Bed",
+    description:
+      "A classic bed frame with storage options and a timeless design.",
+    rating: "3.8",
+    price: "249.00",
+    imgSrc: "/products/product-4.avif",
+    isFavorite: false,
+    cartQuantity: 1,
+  },
+  {
+    id: "4",
+    name: "FLISAT Children's Bench",
+    category: "Children's Furniture",
+    description:
+      "A small, sturdy bench designed specifically for children's use.",
+    rating: "1.0",
+    price: "24.99",
+    imgSrc: "/products/product-5.avif",
+    isFavorite: false,
+    cartQuantity: 1,
+  },
+  {
+    id: "5",
+    name: "BRIMNES Bed Frame with Storage",
+    category: "Bed",
+    description:
+      "A practical bed frame with ample storage space underneath, ideal for smaller bedrooms.",
+    rating: "2.2",
+    price: "349.00",
+    imgSrc: "/products/product-6.avif",
+    isFavorite: false,
+    cartQuantity: 1,
+  },
+  {
+    id: "6",
+    name: "FRIHETEN Sofa Bed",
+    category: "Sofa Beds",
+    description:
+      "A versatile sofa bed with storage space and a comfortable design, perfect for smaller living spaces.",
+    rating: "1.7",
+    price: "599.00",
+    imgSrc: "/products/product-7.avif",
+    isFavorite: true,
+    cartQuantity: 1,
+  },
+  {
+    id: "7",
+    name: "SUNDVIK Children's Bed",
+    category: "Children's Furniture",
+    description:
+      "A sturdy and safe bed designed for children, with a timeless design that grows with them.",
+    rating: "3.0",
+    price: "129.00",
+    imgSrc: "/products/product-8.avif",
+    isFavorite: false,
+    cartQuantity: 1,
+  },
 ];
